@@ -1,0 +1,80 @@
+:root {
+    --primary-color: #23A6F0;
+}
+
+* {
+    margin: 0.5em;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+
+body {
+    /* background-color: #252B42; */
+    font-family: 'Monsterrat', sans-serif;
+
+}
+
+
+/* ..............Start of First Page.................. */
+.firstpg {
+    background-image: url(images/firstpg.png);
+    height: fit-content;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.navbar a {
+    text-decoration: none;
+}
+
+.links {
+    display: flex;
+    /* float: left; */
+    padding: 0 3rem;
+}
+
+.membership {
+    display: flex;
+    float: right;
+}
+
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+}
+
+/* ...........Welcome firstpg subsection.......... */
+.welcome {
+    text-align: center;
+    margin: 5em;
+}
+
+.welcome p {
+    text-align: center;
+    margin: 2rem 3em;
+}
+
+.btns button {
+    height: 2rem;
+    width: auto;
+    padding: 0.3rem;
+    overflow: hidden;
+    border: thin white;
+    border-radius: 6rem;
+    margin: 1em 0em 5em 0em;
+}
+
+.lowericons {
+    display: flex;
+}
+
+.lowericons div {
+    border: none;
+    background-color: white;
+    height: 8em;
+}
+
