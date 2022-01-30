@@ -73,9 +73,16 @@ body {
 }
 
 .lowericons div {
-    border: none;
+    height: max-content;
+    box-shadow: gainsboro;
     background-color: white;
     height: 8em;
+    position: absolute 50%;
+    padding: 1rem 1rem 2rem 1rem;
+}
+
+.lowericons img{
+    height: 4rem;
 }
 
 /* ......... About Section ........ */
@@ -89,10 +96,13 @@ body {
     width: 20%;
     margin: 3em 2em;
 }
+.about img{
+    height: 4rem;
+}
 
 /* ...............Industry ................... */
 
-.industry {
+.industrio {
     background-color: whitesmoke;
 }
 
@@ -168,9 +178,12 @@ input[type=submit] {
     margin: 0 auto;
     text-align: center;
 }
+.pricing h2{
+    margin: 5rem auto 1rem auto;
+}
 .upgrade{
     display: flex;
-    margin: 0 auto;
+    margin: 2rem auto;
     justify-content: center;
     padding: 1.5rem;
 }
@@ -210,9 +223,26 @@ input[type=submit] {
     text-align: center;
     margin: 0.5rem auto;
     padding: 0.5rem;
-
 }
+
+
 /* .free{
   margin-bottom: -2em;  
 } */
 
+/* ............coverage ................ */
+
+.cover{
+    clear: both;
+}
+
+.cover img{
+    float: right;
+}
+.cover p{
+    display: flex;
+    flex-direction: column;
+}
+.cover img{
+    float: right;
+}
