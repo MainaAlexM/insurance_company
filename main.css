@@ -78,3 +78,86 @@ body {
     height: 8em;
 }
 
+/* .................... About Section ............ */
+.about {
+    justify-content: center;
+    display: flex;
+    height: 15rem;
+}
+
+.about div {
+    width: 20%;
+    margin: 3em 2em;
+}
+
+/* ...............Industry ................... */
+
+.industry {
+    background-color: whitesmoke;
+}
+
+.industry h2,
+p {
+    text-align: center;
+}
+.rated {
+    display: flex;
+    
+}
+
+.rating{
+    border: 1rem gray;
+    height: 20rem;
+    width: 15rem;
+    margin: 0 auto;
+    background-color: white;
+    
+}
+
+.rating img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 7rem;
+    text-align: center;
+}
+
+.referrals {
+    display: flex;
+    justify-content: center;
+}
+
+.referrals img {
+    height: 2rem;
+    margin: 2rem;
+}
+
+.newsletter {
+    display: flex;
+    width: 60%;
+    justify-content: space-around;
+    background-color: burlywood;
+}
+
+.newsletter h3 {
+    float: left;
+    margin: 1rem;
+    /* width: 10rem; */
+}
+
+.newsletter input {
+    margin: 1rem -0.18rem;
+    height: 2.5rem;
+    padding: 0rem 1rem;
+    border: none;
+}
+
+input[type=text] {
+    background-color: white;
+    /* height: 2.5rem; */
+}
+
+input[type=submit] {
+    background-color: var(--primary-color);
+    /* height: 2.5rem; */
+}
