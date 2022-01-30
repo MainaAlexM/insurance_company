@@ -78,7 +78,7 @@ body {
     height: 8em;
 }
 
-/* .................... About Section ............ */
+/* ......... About Section ........ */
 .about {
     justify-content: center;
     display: flex;
@@ -161,3 +161,58 @@ input[type=submit] {
     background-color: var(--primary-color);
     /* height: 2.5rem; */
 }
+
+/* ............. Pricing Section ............. */
+
+.pricing{
+    margin: 0 auto;
+    text-align: center;
+}
+.upgrade{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    padding: 1.5rem;
+}
+.upgrade div{
+    border: solid 0.1rem blueviolet;
+    border-radius: 0.4em;
+    height: max-content;
+    padding: 1.5rem;
+    /* overflow: scroll; */
+}
+.upgrade .standard{
+    background-color: #252B42;
+    color: white;
+    justify-content: center;
+}
+.standard .cash{
+    color: var(--primary-color);
+}
+.upgrade .cash em{
+    font-size: 2rem;
+    font-weight: 900;
+}
+.upgrade ul li{
+    margin: 2rem 0rem;
+    text-align: left;
+    padding: 0.2rem 1rem;
+}
+.upgrade button{
+    margin: 0rem auto;
+    padding: 0.4rem 2.2rem;
+    background-color: var(--primary-color);
+    border: none;
+    border-radius: 0.2rem;
+    color: white;
+}
+.upgrade h3, p{
+    text-align: center;
+    margin: 0.5rem auto;
+    padding: 0.5rem;
+
+}
+/* .free{
+  margin-bottom: -2em;  
+} */
+
