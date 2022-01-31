@@ -232,30 +232,60 @@ input[type=submit] {
 
 /* ............coverage ................ */
 
+.coverage{
+    display: flex;
+    flex-direction: column;
+}
+
 .cover{
-    clear: both;
+    display: flex;
+    flex-direction: row;
+}
+
+.cvintro{
+    /* clear: both; */
+    display: flex;
+    flex-direction: column;
 }
 
 .cover img{
     float: right;
 }
-.cover p{
-    display: flex;
-    flex-direction: column;
+
+.consulting{
+    clear: both;
+    display: block;
 }
-.cover img{
+
+/* .cover img{
     float: right;
-}
+} */
+
 
 /* .......... Maps ........... */
 
 .maps{
     display: flex;
     justify-content: center;
-    margin: 2rem auto;
 }
+
 .ftr{
     margin: 2rem 2rem 2rem 0rem;
+}
+
+.ftr ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.ftr a{
+    text-decoration: none;
+    color: black;
+    margin: 0rem;
+}
+
+.ftr ul li a :hover{
+    color: blueviolet;
 }
 
 .maps ul li{
@@ -264,8 +294,20 @@ input[type=submit] {
     padding: 1em auto;
     margin: 1.5rem;
 }
+
 .maps p{
     text-align: left;
-    margin: 1rem;
+    margin: 0rem;
 
+}
+
+/* .......... Footer ............. */
+.footer{
+    display: flex;
+    background-color: whitesmoke;
+    justify-content: space-around;
+}
+
+.footer .icons{
+    float: right;
 }
