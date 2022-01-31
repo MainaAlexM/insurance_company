@@ -247,6 +247,9 @@ input[type=submit] {
     display: flex;
     flex-direction: column;
 }
+.cvintro img{
+    height: 10rem;
+}
 
 .cover img{
     float: right;
