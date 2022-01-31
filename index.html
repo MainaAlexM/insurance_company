@@ -260,10 +260,54 @@
             
             <div class="appointment">
     
-                <img src="images/pngwing 1.png" alt="fam">
+                <div class="family">
+                    <img src="" alt="fam">
+                </div>
     
                 <div class="form">
+                    <h3><em>Book appointment</em></h3>
+
+                    <form action="#">
+    
+                        <ul>
+                            <li>
+                                <label for="name">Name:</label>
+                                <input type="text" id="name" name="user_name" placeholder="Full Name" required>
+                            </li>
+                            <li>
+                                <label for="mail">Email address:</label>
+                                <input type="email" name="user_email" id="mail" placeholder="example@gmail.com" required>
+                            </li>
+                            <li>
+                                <label for="department">Department</label>
+                                <select name="Department" id="Dept" required>
+                                    <option value="">Please Select</option> 
+                                    <option value="HR">Human resource</option>
+                                    <option value="IT">Information Technology</option>
+                                    <option value="Education">Education Insurance</option>
+                                    <option value="Life">Life Insurance</option>
+                                    <option value="Motor">Motor Insurance</option>
+                                </select>
+                            </li>
+                            
+                            <li>
+                                <label for="time">Time</label>
+                                <select name="Time" id="Dept" required>
+                                    <option value="">4:00 available</option>
+                                    <option value="evening">5:30pm</option>
+                                    <option value="night">7:00pm</option>
+                                    <option value="morning">8:00am</option>
+                                    <option value="noon">12:00</option>
+                                    <option value="afternoon"> 3:00pm</option>
+                                </select>
+                            </li>
+                
+                            <li>
+                                <button type="submit">Book Appointment</button>
+                            </li>
+                        </ul>
                     
+                    </form>
                     
                 </div>
             </div>

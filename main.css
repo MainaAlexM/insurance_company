@@ -234,23 +234,34 @@ input[type=submit] {
 
 .coverage{
     display: flex;
-    flex-direction: column;
+    flex-flow: column wrap;
 }
 
 .cover{
     display: flex;
     flex-direction: row;
+    background-color: #252B42;
+    color: white;
+    justify-content: center;
+    padding: 2rem 5rem;
+}
+.cover img{
+    height: 15rem;
 }
 
 .cvintro{
     /* clear: both; */
     display: flex;
     flex-direction: column;
-}
-.cvintro img{
-    height: 10rem;
+    margin-bottom: 25rem;
 }
 
+.cvintro h2{
+    margin-top: 2rem;
+}
+.cvintro p{
+    text-align: left;
+}
 .cover img{
     float: right;
 }
@@ -269,6 +280,7 @@ input[type=submit] {
 
 .maps{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
 }
 
@@ -307,10 +319,41 @@ input[type=submit] {
 /* .......... Footer ............. */
 .footer{
     display: flex;
+    flex-wrap: wrap;
     background-color: whitesmoke;
     justify-content: space-around;
 }
 
 .footer .icons{
     float: right;
+}
+
+form ul li{
+    list-style-type: none;
+}
+form button{
+    display: block;
+    height: 2.5rem;
+    width: 15rem;
+    border-radius: 0.4rem;
+    background-color: var(--primary-color);
+    text-align: center;
+    position: relative;
+    margin: 0rem auto;
+}
+form input, select{
+    height: 2rem;
+    width: max-content;
+    padding: 0.2rem;
+    border: solid 0.1rem steelblue;
+    background-color: white;
+    justify-content: center;
+}
+.form{
+    border: solid 0.1rem grey;
+    text-align: center;
+    height: max-content;
+    width: 25rem;
+    font-style: normal;
+    padding: 1rem 0.5rem;
 }
