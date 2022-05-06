@@ -256,7 +256,7 @@ input[type=submit] {
     background-color: #252B42;
     color: white;
     justify-content: center;
-    padding: 2rem 5rem;
+    padding: 2rem 5rem 15rem -10rem;
 }
 .cover img{
     height: 15rem;
@@ -320,8 +320,14 @@ form input, select{
     padding: 1rem 0.5rem;
     margin-left: 0rem;
 }
+form input, select{
+    align-content: right;
+    display: block;
+    width: 100%;
+}
 .appointment{
     display: flex;
+    align-self: center;
     border: solid 0.1rem lightblue;
     border-radius: 0.4rem;
     width: max-content;
@@ -335,23 +341,20 @@ form input, select{
 /* .......... Maps ........... */
 
 .maps{
-    display:grid;
-    justify-content: center;
+    display:flex;
+    justify-content: space-around;
+    text-align: center;
+    margin: 0 auto;
 }
 
 .ftr{
     margin: 2rem 2rem 2rem 0rem;
+    display: inline-flex;
 }
-
 .ftr ul li a {
     text-decoration: none;
     color: black;
-}
-
-.ftr a{
-    text-decoration: none;
-    color: black;
-    margin: 0rem;
+    margin-top: 0rem;
 }
 
 .ftr ul li a :hover{
@@ -359,14 +362,15 @@ form input, select{
 }
 
 .maps ul li{
-    display: grid;
-    grid-template-columns: 22% 22% 22% 22%;
+    /* display: grid;
+    grid-template-columns: 22% 22% 22% 22%; */
     padding: 1em auto;
     margin: 0 auto;
+    list-style-type: none;
 }
 
 .maps p{
-    text-align: left;
+    text-align: center;
     margin: 0rem;
 
 }
@@ -377,6 +381,7 @@ form input, select{
     flex-wrap: wrap;
     background-color: whitesmoke;
     justify-content: space-around;
+    /* height: 5rem; */
 }
 
 .footer .icons{
